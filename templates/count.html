@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>统计结果，总字数为{{wordcnt}}字</h1>
+    <a href="..">回到主页</a>
+    <br>
+    <h2>你的文本如下:</h2>
+    {{text}}
+
+    <h2>文字频率:</h2>
+    {% for word,count in sort_word %}
+    {{word}}:{{count}}
+    <br>
+    {% endfor %}}
+</head>
+<body>
+
+</body>
+</html>
